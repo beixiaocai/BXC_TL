@@ -1,0 +1,11 @@
+﻿# clion
+.idea/
+cmake-build-debug/*
+build/*
+
+# vs
+.vs
+BXC_TL/x64/*
+Server/x64/*
+Client/x64/*
+x64/*

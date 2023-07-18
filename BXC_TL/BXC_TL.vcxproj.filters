@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{d96c3db9-37bc-4a6c-99b2-fc25ba66e92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{e7de0c27-5300-4c10-8f12-bbc0d133ca6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Client">
+      <UniqueIdentifier>{aa118e25-94e2-4a4e-a6a5-1ff3e64c4847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Server">
+      <UniqueIdentifier>{ab0ec712-db38-48e2-beb6-8802fc23a5e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BXC_TLServer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BXC_TL.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BXC_TLClient.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Server\Server.h">
+      <Filter>Core\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Client\ClientStream.h">
+      <Filter>Core\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\TpPacket.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Server\ServerStream.h">
+      <Filter>Core\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Stream.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Client\Client.h">
+      <Filter>Core\Client</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\Server\Server.cpp">
+      <Filter>Core\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Client\ClientStream.cpp">
+      <Filter>Core\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\TpPacket.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Server\ServerStream.cpp">
+      <Filter>Core\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Stream.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Client\Client.cpp">
+      <Filter>Core\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Server\BXC_TLServer.cpp">
+      <Filter>Core\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Client\BXC_TLClient.cpp">
+      <Filter>Core\Client</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
